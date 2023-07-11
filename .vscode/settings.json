@@ -1,0 +1,18 @@
+{
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "./dist/spa",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.embeddedLanguageFormatting": "auto",
+  "html.format.wrapAttributes": "auto",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  }
+}
